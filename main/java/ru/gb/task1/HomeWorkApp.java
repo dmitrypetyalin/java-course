@@ -14,14 +14,14 @@ public class HomeWorkApp {
     }
 
     private static void printThreeWords() {
-//        System.out.println("Orange");
-//        System.out.println("Banana");
-//        System.out.println("Apple");
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
 
-        Fruits[] fruits = Fruits.values();
-        for (Fruits fruit : fruits) {
-            System.out.println(fruit);
-        }
+//        Fruits[] fruits = Fruits.values();
+//        for (Fruits fruit : fruits) {
+//            System.out.println(fruit);
+//        }
     }
 
     private static void checkSumSign() {
@@ -38,9 +38,9 @@ public class HomeWorkApp {
         int value = 10;
         if (value <= 0)
             System.out.println("Красный");
-        if (value > 0 && value <= 100)
+        else if (value > 0 && value <= 100)
             System.out.println("Желтый");
-        if (value > 100)
+        else if (value > 100)
             System.out.println("Зеленый");
     }
 
